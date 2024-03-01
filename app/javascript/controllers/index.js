@@ -4,5 +4,8 @@
 
 import { application } from "./application"
 
+import ContextMenuController from "./context_menu_controller"
+application.register("context-menu", ContextMenuController)
+
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)

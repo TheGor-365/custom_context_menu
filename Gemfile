@@ -15,6 +15,7 @@ gem "simple_form"
 gem "redis", "~> 4.0"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
+gem "faker", "~> 3.2"
 
 # gem "kredis"
 # gem "bcrypt", "~> 3.1.7"
