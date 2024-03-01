@@ -1,0 +1,19 @@
+<div id="<%= dom_id todo %>" class="border rounded p-5">
+  <strong>
+    <%= todo.title %>
+  </strong><br><br>
+
+  <small class="text-muted">
+    <%= todo.description %>
+  </small>
+
+  <% if todo.done %>
+    <p class="text-success border border-success p-2 rounded">
+      DONE
+    </p>
+  <% else %>
+    <p class="text-danger border border-danger p-2 rounded">
+      UNDONE
+    </p>
+  <% end %>
+</div>

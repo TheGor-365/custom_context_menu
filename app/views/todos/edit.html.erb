@@ -1,0 +1,9 @@
+<h1 class="mb-5">Editing todo</h1>
+
+<%= render "form", todo: @todo %>
+
+<br>
+<div class="btn-group my-5">
+  <%= link_to "Show this todo", @todo, class: "btn btn-sm btn-outline-dark" %>
+  <%= link_to "Back to todos", todos_path, class: "btn btn-sm btn-outline-dark" %>
+</div>
